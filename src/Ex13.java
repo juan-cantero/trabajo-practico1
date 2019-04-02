@@ -1,6 +1,9 @@
+import java.util.Scanner;
+
 public class Ex13 {
     public static void main (String[] args) {
-        int n = 5;
+        Scanner input = new Scanner(System.in);
+        int n = input.nextInt();
         numeroTriangular(n);
 
     }
